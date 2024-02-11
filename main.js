@@ -47,6 +47,7 @@ function play() {
 
 function reset() {
     userInput.value = ""
+    userLife = 5
     pickRandomNum()
     resultArea.textContent = "결과를 여기서 확인하시오"
 }
