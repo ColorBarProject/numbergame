@@ -52,6 +52,7 @@ function reset() {
     playBtn.disabled = false
     pickRandomNum()
     resultArea.textContent = "결과를 여기서 확인하시오"
+    lifeLeft.textContent = `Your Life : ${userLife}`
 }
 
 pickRandomNum();
