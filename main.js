@@ -48,6 +48,8 @@ function play() {
 function reset() {
     userInput.value = ""
     userLife = 5
+    gameOver = false
+    playBtn.disabled = false
     pickRandomNum()
     resultArea.textContent = "결과를 여기서 확인하시오"
 }
